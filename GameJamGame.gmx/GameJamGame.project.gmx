@@ -12,14 +12,24 @@
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_door</sprite>
     <sprite>sprites\spr_starman</sprite>
+    <sprite>sprites\sp_newgame</sprite>
+    <sprite>sprites\sp_portal</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background1</background>
+    <background>background\background2</background>
+    <background>background\test_bg</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\introduction_text.gml</script>
+  </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader0.shader</shader>
   </shaders>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
+    <font>fonts\cutsceneone_text</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_char</object>
@@ -27,11 +37,16 @@
     <object>objects\obj_door</object>
     <object>objects\obj_starchar</object>
     <object>objects\obj_helper_text</object>
+    <object>objects\intro_text</object>
+    <object>objects\oj_portal</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
+    <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\cutscene_1</room>
+    <room>rooms\room1</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
   </rooms>

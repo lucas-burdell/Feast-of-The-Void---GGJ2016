@@ -13,7 +13,7 @@
         <exetype>1</exetype>
         <functionname>action_timeline_start</functionname>
         <codestring></codestring>
-        <whoName>intro_text</whoName>
+        <whoName>&lt;undefined&gt;</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
