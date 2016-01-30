@@ -120,7 +120,7 @@
     <instance objName="obj_floor" x="672" y="64" name="inst_0963FFE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="512" y="192" name="inst_F6EEB120" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="512" y="160" name="inst_4F351988" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_starchar" x="320" y="160" name="inst_FFFAD2F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_starchar" x="352" y="192" name="inst_FFFAD2F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_helper_text" x="256" y="32" name="inst_636BA819" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
