@@ -21,6 +21,11 @@
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\spr_iceplatform</sprite>
     <sprite>sprites\spr_door_air</sprite>
+    <sprite>sprites\spr_eagleman</sprite>
+    <sprite>sprites\spr_eagleman_idle</sprite>
+    <sprite>sprites\spr_eagleman_run</sprite>
+    <sprite>sprites\spr_eagleman_fall</sprite>
+    <sprite>sprites\spr_eagleman_jump</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -53,6 +58,7 @@
     <object>objects\oj_ice</object>
     <object>objects\obj_ice_moving_floor</object>
     <object>objects\obj_moving_floor</object>
+    <object>objects\obj_eagleman</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
