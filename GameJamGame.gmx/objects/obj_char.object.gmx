@@ -33,7 +33,6 @@ vsp = 0; //vertical speed
 //constants (ish)
 jumpspeed = 7; //jump speed
 movespeed = 4;
-show_message("object created!");
 </string>
           </argument>
         </arguments>
