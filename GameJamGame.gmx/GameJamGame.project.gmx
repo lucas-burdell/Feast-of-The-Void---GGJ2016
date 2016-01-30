@@ -16,12 +16,12 @@
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\spr_iceplatform</sprite>
+    <sprite>sprites\spr_door_air</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\test_bg</background>
-    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -57,6 +57,7 @@
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
+    <room>rooms\rm_hub</room>
     <room>rooms\rm_waterLevelpart_1</room>
   </rooms>
   <help>
