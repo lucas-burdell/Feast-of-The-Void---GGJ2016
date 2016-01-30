@@ -35,6 +35,8 @@
     <sprite>sprites\spr_door_nightmare</sprite>
     <sprite>sprites\spr_coin</sprite>
     <sprite>sprites\sprite25</sprite>
+    <sprite>sprites\spr_door_hub</sprite>
+    <sprite>sprites\sprite27</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -44,6 +46,7 @@
     <background>background\bg_ground_fliped</background>
     <background>background\bg_firerealm</background>
     <background>background\bg_air_hub</background>
+    <background>background\bg_temple</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -78,6 +81,7 @@
     <object>objects\oj_movingup_down_floor</object>
     <object>objects\oj_coin</object>
     <object>objects\obj_health</object>
+    <object>objects\oj_door_hub</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -96,6 +100,7 @@
     <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_airLevelpart_1</room>
+    <room>rooms\rm_temple_enterance</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
