@@ -44,6 +44,9 @@
     <object>objects\oj_newGame</object>
     <object>objects\oj_loadGame</object>
     <object>objects\oj_exit</object>
+    <object>objects\oj_ice</object>
+    <object>objects\obj_ice_moving_floor</object>
+    <object>objects\obj_moving_floor</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
