@@ -26,7 +26,6 @@
     <script>scripts\introduction_text.gml</script>
     <script>scripts\newGame.gml</script>
   </scripts>
-  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
     <font>fonts\cutsceneone_text</font>
@@ -53,7 +52,6 @@
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
-    <room>rooms\rm_hub</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
