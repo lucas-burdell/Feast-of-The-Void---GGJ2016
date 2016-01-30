@@ -15,6 +15,7 @@
     <sprite>sprites\sp_white_block</sprite>
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_iceplatform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -52,6 +53,10 @@
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
+<<<<<<< HEAD
+=======
+    <room>rooms\rm_waterLevelpart_1</room>
+>>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
