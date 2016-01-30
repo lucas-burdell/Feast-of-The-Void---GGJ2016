@@ -11,6 +11,10 @@
     <sprite>sprites\spr_char</sprite>
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_starman_fall</sprite>
+    <sprite>sprites\spr_starman_run</sprite>
+    <sprite>sprites\spr_starman_jump</sprite>
+    <sprite>sprites\spr_starman_idle</sprite>
     <sprite>sprites\spr_starman</sprite>
     <sprite>sprites\sp_white_block</sprite>
     <sprite>sprites\sp_portal</sprite>
