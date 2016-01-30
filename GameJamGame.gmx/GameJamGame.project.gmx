@@ -15,6 +15,7 @@
     <sprite>sprites\sp_white_block</sprite>
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_iceplatform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -26,7 +27,6 @@
     <script>scripts\introduction_text.gml</script>
     <script>scripts\newGame.gml</script>
   </scripts>
-  <shaders name="shaders"/>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
     <font>fonts\cutsceneone_text</font>
@@ -53,7 +53,7 @@
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
-    <room>rooms\rm_hub</room>
+    <room>rooms\rm_waterLevelpart_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
