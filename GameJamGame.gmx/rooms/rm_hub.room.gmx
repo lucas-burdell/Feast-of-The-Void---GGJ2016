@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_hub" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -152,7 +152,13 @@
     <instance objName="obj_floor" x="896" y="416" name="inst_DCE1EE43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="896" y="448" name="inst_6D90EC4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_floor" x="896" y="416" name="inst_7C29AA15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_starchar" x="192" y="288" name="inst_0BDD22F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_starchar" x="128" y="288" name="inst_0BDD22F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oj_door_fire" x="352" y="288" name="inst_7798B3BB" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="oj_door_earth" x="448" y="288" name="inst_C47984A3" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="oj_door_water" x="544" y="288" name="inst_F8A2383F" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_air" x="640" y="288" name="inst_5742E251" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="oj_door_merchant" x="256" y="288" name="inst_53673690" locked="0" code="" scaleX="1.16666662693024" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
+    <instance objName="oj_door_nightmare" x="896" y="256" name="inst_3E434AC2" locked="0" code="" scaleX="-2.83333325386047" scaleY="2.09999990463257" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
