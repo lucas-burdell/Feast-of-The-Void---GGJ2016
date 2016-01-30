@@ -34,6 +34,7 @@
     <sprite>sprites\spr_door_earth</sprite>
     <sprite>sprites\spr_door_nightmare</sprite>
     <sprite>sprites\spr_coin</sprite>
+    <sprite>sprites\sprite25</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -42,7 +43,7 @@
     <background>background\bg_ground</background>
     <background>background\bg_ground_fliped</background>
     <background>background\bg_firerealm</background>
-    <background>background\bg_hub</background>
+    <background>background\bg_air_hub</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -76,6 +77,7 @@
     <object>objects\oj_door_nightmare</object>
     <object>objects\oj_movingup_down_floor</object>
     <object>objects\oj_coin</object>
+    <object>objects\obj_health</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
