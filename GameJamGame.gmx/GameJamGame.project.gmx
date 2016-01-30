@@ -53,10 +53,7 @@
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
-<<<<<<< HEAD
-=======
     <room>rooms\rm_waterLevelpart_1</room>
->>>>>>> origin/master
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
