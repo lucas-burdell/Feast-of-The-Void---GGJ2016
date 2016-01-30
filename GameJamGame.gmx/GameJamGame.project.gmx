@@ -84,6 +84,8 @@
     <object>objects\oj_coin</object>
     <object>objects\obj_health</object>
     <object>objects\oj_door_hub</object>
+    <object>objects\obj_testText</object>
+    <object>objects\obj_roomTransition</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -103,12 +105,13 @@
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_temple_enterance</room>
+    <room>rooms\room13</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
