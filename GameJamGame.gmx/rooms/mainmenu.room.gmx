@@ -54,6 +54,7 @@
     <instance objName="oj_portal" x="128" y="640" name="inst_42C8AED2" locked="0" code="" scaleX="-5" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="oj_newGame" x="256" y="288" name="inst_D27E42C8" locked="0" code="" scaleX="1.52380955219269" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="oj_loadGame" x="256" y="352" name="inst_E8202665" locked="0" code="" scaleX="1.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="oj_exit" x="256" y="416" name="inst_FFF837EB" locked="0" code="" scaleX="1.5" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
