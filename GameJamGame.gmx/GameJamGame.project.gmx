@@ -45,8 +45,10 @@
     <background>background\bg_ground</background>
     <background>background\bg_ground_fliped</background>
     <background>background\bg_firerealm</background>
+    <background>background\bg_air_hub_crumblingcity</background>
     <background>background\bg_air_hub</background>
     <background>background\bg_temple</background>
+    <background>background\bg_air_temple</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
