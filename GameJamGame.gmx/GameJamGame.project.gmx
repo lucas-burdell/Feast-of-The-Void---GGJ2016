@@ -21,7 +21,9 @@
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
-    <background>background\test_bg</background>
+    <background>background\bg_waterlands</background>
+    <background>background\bg_ground</background>
+    <background>background\bg_ground_fliped</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -57,7 +59,6 @@
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
-    <room>rooms\rm_hub</room>
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
     <room>rooms\rm_hub</room>
