@@ -34,6 +34,7 @@
   <objects name="objects">
     <object>objects\obj_char</object>
     <object>objects\obj_floor</object>
+    <object>objects\obj_door_air</object>
     <object>objects\obj_door</object>
     <object>objects\obj_starchar</object>
     <object>objects\obj_helper_text</object>
