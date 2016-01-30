@@ -59,6 +59,8 @@
     <room>rooms\rm_second</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_waterLevelpart_1</room>
+    <room>rooms\rm_waterLevelpart_2</room>
+    <room>rooms\rm_hub</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

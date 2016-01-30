@@ -13,8 +13,6 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>64</width>
-  <height>64</height>
   <width>655</width>
   <height>492</height>
   <data>images\test_bg.png</data>
