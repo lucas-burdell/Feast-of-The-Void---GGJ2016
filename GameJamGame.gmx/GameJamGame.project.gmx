@@ -37,6 +37,7 @@
     <sprite>sprites\sprite25</sprite>
     <sprite>sprites\spr_door_hub</sprite>
     <sprite>sprites\sprite27</sprite>
+    <sprite>sprites\spr_torch_flicker</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -49,6 +50,7 @@
     <background>background\bg_air_hub</background>
     <background>background\bg_temple</background>
     <background>background\bg_air_temple</background>
+    <background>background\bg_water_temple</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -86,12 +88,15 @@
     <object>objects\oj_door_hub</object>
     <object>objects\obj_testText</object>
     <object>objects\obj_roomTransition</object>
+    <object>objects\obj_flicker_torch</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
     <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\rm_temple_air</room>
+    <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
@@ -100,10 +105,10 @@
     <room>rooms\rm_fireLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
+    <room>rooms\rm_water_temple_enterance</room>
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_mercant</room>
-    <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_temple_enterance</room>
     <room>rooms\room13</room>
   </rooms>
@@ -111,7 +116,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>

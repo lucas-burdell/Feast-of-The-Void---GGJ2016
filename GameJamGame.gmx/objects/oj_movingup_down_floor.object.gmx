@@ -46,7 +46,7 @@
           <argument>
             <kind>1</kind>
             <string>///init variables
-goingUp = true;
+goingDown = true;
 vertSpeed = 5;
 distance = 15;
 currentDistance = 0;
@@ -85,9 +85,93 @@ if (goingDown) {
     }
 }
 
-if (place_meeting(x, y-1, obj_char)) {
-    obj_char.y += vertSpeed;
+
+if (place_meeting(x, y - 2, obj_char)) {
+    if (goingDown) {
+        obj_char.y += vertSpeed;
+    } else{ 
+        obj_char.y += -vertSpeed;
+    }
 }
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+//platform moves with char
+/*
+if position_meeting(x-sprite_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height,oj_movingup_down_floor){
+objID = instance_position(x-sprite_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height,oj_movingup_down_floor);
+vspeed = objId.vspeed;
+move_outside_solid(90, sprite_height);
+}
+*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_floor">
+      <action>
+        <libid>1</libid>
+        <id>115</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_bounce</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_char">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>guyTouching = other;
 </string>
           </argument>
         </arguments>

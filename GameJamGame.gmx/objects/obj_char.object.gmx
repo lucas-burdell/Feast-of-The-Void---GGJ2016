@@ -35,6 +35,8 @@ jumpspeed = 7; //jump speed
 movespeed = 4;
 
 move = 0;
+
+grav_enabled = true;
 </string>
           </argument>
         </arguments>
@@ -65,10 +67,27 @@ key_jump = keyboard_check_pressed(vk_space);
 //React to inputs
 move = key_left + key_right;
 hsp = move * movespeed;
-if (vsp &lt; 30) vsp += grav; //positive = down, negative = up
+if (grav_enabled) {
+    if (vsp &lt; 30) {
+        vsp += grav;
+    }
+} else {
+    if (vsp&lt;0) {
+         vsp = 0;
+    } else {
+        vsp += grav;
+    }
+}
+//if (vsp &lt; 30) vsp += grav; //positive = down, negative = up
 
 if (place_meeting(x, y + 1, obj_floor )) {
     vsp = key_jump * -jumpspeed;
+}
+
+if (place_meeting(x, y + sprite_height/2, oj_movingup_down_floor)) {
+    grav_enabled = false;
+} else {
+    grav_enabled = true;
 }
 
 //horizontal collision check
@@ -89,8 +108,9 @@ if (place_meeting(x, y + vsp, obj_floor)) {
 
 x += hsp;
 y += vsp;
-if position_meeting(x-sprite_xoffset+_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height, obj_movingup_down_floor){
-objID = instance_position(x-sprite_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height,obj_movingup_down_floor)
+
+if position_meeting(x-sprite_xoffset+_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height + 1, oj_movingup_down_floor){
+objID = instance_position(x-sprite_xoffset+sprite_width/2, y-sprite_yoffset+sprite_height + 1,oj_movingup_down_floor)
 vspeed = objID.vspeed;
 move_outside_solid(90,sprite_height);
 }
