@@ -9,6 +9,7 @@
     <sound>sound\snd_portal</sound>
     <sound>sound\snd_coin</sound>
     <sound>sound\snd_death</sound>
+    <sound>sound\snd_air_realm_fixed</sound>
     <sound>sound\snd_air_realm</sound>
   </sounds>
   <sprites name="sprites">
@@ -48,6 +49,7 @@
     <sprite>sprites\spr_nightmare_krystal</sprite>
     <sprite>sprites\spr_building_rumble</sprite>
     <sprite>sprites\spr_cloud_floor</sprite>
+    <sprite>sprites\spr_rock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -136,7 +138,7 @@
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_temple_enterance</room>
-    <room>rooms\room13</room>
+    <room>rooms\rm_deathScreen</room>
     <room>rooms\room16</room>
     <room>rooms\room17</room>
     <room>rooms\room18</room>
