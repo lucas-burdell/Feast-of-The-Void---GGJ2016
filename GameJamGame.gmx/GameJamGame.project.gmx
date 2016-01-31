@@ -34,12 +34,16 @@
     <sprite>sprites\spr_door_earth</sprite>
     <sprite>sprites\spr_door_nightmare</sprite>
     <sprite>sprites\spr_coin</sprite>
-    <sprite>sprites\sprite25</sprite>
     <sprite>sprites\spr_door_hub</sprite>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_torch_flicker</sprite>
     <sprite>sprites\spr_skull</sprite>
     <sprite>sprites\spr_inv_wall</sprite>
+    <sprite>sprites\spr_fire_krystal</sprite>
+    <sprite>sprites\spr_water_krystal</sprite>
+    <sprite>sprites\spr_air_krystal</sprite>
+    <sprite>sprites\spr_earth_krystal</sprite>
+    <sprite>sprites\spr_nightmare_krystal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -54,6 +58,7 @@
     <background>background\bg_air_temple</background>
     <background>background\bg_water_temple</background>
     <background>background\bg_nightmare</background>
+    <background>background\bg_items</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -119,6 +124,7 @@
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_temple_enterance</room>
     <room>rooms\room13</room>
+    <room>rooms\room16</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
