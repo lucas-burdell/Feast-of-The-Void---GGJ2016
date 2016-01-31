@@ -9,7 +9,6 @@
     <sound>sound\snd_portal</sound>
     <sound>sound\snd_coin</sound>
     <sound>sound\snd_death</sound>
-    <sound>sound\snd_air_realm_fixed</sound>
     <sound>sound\snd_air_realm</sound>
   </sounds>
   <sprites name="sprites">
@@ -53,10 +52,13 @@
 
     <sprite>sprites\spr_building_rumble</sprite>
     <sprite>sprites\spr_cloud_floor</sprite>
+<<<<<<< HEAD
     <sprite>sprites\spr_rock</sprite>
 
     <sprite>sprites\sprite37</sprite>
 
+=======
+>>>>>>> parent of aa78edb... added stuff
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -165,8 +167,12 @@
     <room>rooms\rm_temple_entrance</room>
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_temple_enterance</room>
+<<<<<<< HEAD
 
     <room>rooms\rm_deathScreen</room>
+=======
+    <room>rooms\room13</room>
+>>>>>>> parent of aa78edb... added stuff
     <room>rooms\room16</room>
     <room>rooms\room17</room>
     <room>rooms\room18</room>

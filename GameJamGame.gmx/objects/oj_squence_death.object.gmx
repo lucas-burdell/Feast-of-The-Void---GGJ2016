@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>rm_deathScreen</room>
+            <room>room13</room>
           </argument>
         </arguments>
       </action>
