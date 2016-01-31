@@ -38,6 +38,8 @@
     <sprite>sprites\spr_door_hub</sprite>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_torch_flicker</sprite>
+    <sprite>sprites\spr_skull</sprite>
+    <sprite>sprites\spr_inv_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -51,6 +53,7 @@
     <background>background\bg_temple</background>
     <background>background\bg_air_temple</background>
     <background>background\bg_water_temple</background>
+    <background>background\bg_nightmare</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -89,17 +92,23 @@
     <object>objects\obj_testText</object>
     <object>objects\obj_roomTransition</object>
     <object>objects\obj_flicker_torch</object>
+    <object>objects\obj_skull_floor</object>
+    <object>objects\obj_skull_movingside2side_floor</object>
+    <object>objects\obj_inv_wall</object>
+    <object>objects\obj_skull_movingup_down_floor</object>
+    <object>objects\obj_inv_wall_player</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
     <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_temple_air</room>
+    <room>rooms\rm_nightmareLevelpart_1</room>
+    <room>rooms\rm_first</room>
     <room>rooms\rm_airLevelpart_1</room>
+    <room>rooms\rm_temple_air</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
-    <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_fireLevelpart_1</room>
@@ -107,7 +116,6 @@
     <room>rooms\rm_waterLevelpart_2</room>
     <room>rooms\rm_water_temple_enterance</room>
     <room>rooms\rm_earthLevelpart_1</room>
-    <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_temple_enterance</room>
     <room>rooms\room13</room>
