@@ -38,6 +38,9 @@
     <sprite>sprites\spr_door_hub</sprite>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_torch_flicker</sprite>
+    <sprite>sprites\sDialog</sprite>
+    <sprite>sprites\sGuy</sprite>
+    <sprite>sprites\sPlayer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -56,6 +59,13 @@
   <scripts name="scripts">
     <script>scripts\introduction_text.gml</script>
     <script>scripts\newGame.gml</script>
+    <script>scripts\is_message.gml</script>
+    <script>scripts\message_add.gml</script>
+    <script>scripts\message_draw.gml</script>
+    <script>scripts\message_init.gml</script>
+    <script>scripts\message_read.gml</script>
+    <script>scripts\message_remove.gml</script>
+    <script>scripts\read_message.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
@@ -89,6 +99,9 @@
     <object>objects\obj_testText</object>
     <object>objects\obj_roomTransition</object>
     <object>objects\obj_flicker_torch</object>
+    <object>objects\Controller</object>
+    <object>objects\Guy</object>
+    <object>objects\Player</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
@@ -96,7 +109,6 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\rm_temple_air</room>
-    <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
     <room>rooms\rm_first</room>
@@ -106,17 +118,17 @@
     <room>rooms\rm_waterLevelpart_1</room>
     <room>rooms\rm_waterLevelpart_2</room>
     <room>rooms\rm_water_temple_enterance</room>
+    <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_earthLevelpart_1</room>
     <room>rooms\rm_nightmareLevelpart_1</room>
-    <room>rooms\rm_mercant</room>
-    <room>rooms\rm_temple_enterance</room>
-    <room>rooms\room13</room>
+    <room>rooms\rm_merchant</room>
+    <room>rooms\rm_temple_entrance</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\lucas.burdell\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
