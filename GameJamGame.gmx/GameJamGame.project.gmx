@@ -37,11 +37,11 @@
     <sprite>sprites\spr_door_hub</sprite>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\spr_torch_flicker</sprite>
-<<<<<<< HEAD
+
     <sprite>sprites\sDialog</sprite>
     <sprite>sprites\sGuy</sprite>
     <sprite>sprites\sPlayer</sprite>
-=======
+
     <sprite>sprites\spr_skull</sprite>
     <sprite>sprites\spr_inv_wall</sprite>
     <sprite>sprites\spr_fire_krystal</sprite>
@@ -49,7 +49,7 @@
     <sprite>sprites\spr_air_krystal</sprite>
     <sprite>sprites\spr_earth_krystal</sprite>
     <sprite>sprites\spr_nightmare_krystal</sprite>
->>>>>>> origin/master
+
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -110,29 +110,29 @@
     <object>objects\obj_testText</object>
     <object>objects\obj_roomTransition</object>
     <object>objects\obj_flicker_torch</object>
-<<<<<<< HEAD
+
     <object>objects\Controller</object>
     <object>objects\Guy</object>
     <object>objects\Player</object>
-=======
+
     <object>objects\obj_skull_floor</object>
     <object>objects\obj_skull_movingside2side_floor</object>
     <object>objects\obj_inv_wall</object>
     <object>objects\obj_skull_movingup_down_floor</object>
     <object>objects\obj_inv_wall_player</object>
->>>>>>> origin/master
+
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
     <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
-<<<<<<< HEAD
-=======
+
+
     <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_first</room>
     <room>rooms\rm_airLevelpart_1</room>
->>>>>>> origin/master
+
     <room>rooms\rm_temple_air</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
@@ -144,16 +144,16 @@
     <room>rooms\rm_water_temple_enterance</room>
     <room>rooms\rm_airLevelpart_1</room>
     <room>rooms\rm_earthLevelpart_1</room>
-<<<<<<< HEAD
+
     <room>rooms\rm_nightmareLevelpart_1</room>
     <room>rooms\rm_merchant</room>
     <room>rooms\rm_temple_entrance</room>
-=======
+
     <room>rooms\rm_mercant</room>
     <room>rooms\rm_temple_enterance</room>
     <room>rooms\room13</room>
     <room>rooms\room16</room>
->>>>>>> origin/master
+
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
