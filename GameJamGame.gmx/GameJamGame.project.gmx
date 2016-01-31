@@ -8,6 +8,8 @@
     <sound>sound\snd_intro</sound>
     <sound>sound\snd_portal</sound>
     <sound>sound\snd_coin</sound>
+    <sound>sound\snd_death</sound>
+    <sound>sound\snd_air_realm</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_char</sprite>
@@ -44,6 +46,8 @@
     <sprite>sprites\spr_air_krystal</sprite>
     <sprite>sprites\spr_earth_krystal</sprite>
     <sprite>sprites\spr_nightmare_krystal</sprite>
+    <sprite>sprites\spr_building_rumble</sprite>
+    <sprite>sprites\spr_cloud_floor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -64,10 +68,12 @@
   <scripts name="scripts">
     <script>scripts\introduction_text.gml</script>
     <script>scripts\newGame.gml</script>
+    <script>scripts\scr_youdied.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_test</font>
     <font>fonts\cutsceneone_text</font>
+    <font>fonts\fnt_youdied</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_char</object>
@@ -102,18 +108,25 @@
     <object>objects\obj_inv_wall</object>
     <object>objects\obj_skull_movingup_down_floor</object>
     <object>objects\obj_inv_wall_player</object>
+    <object>objects\oj_restart</object>
+    <object>objects\obj_bulidingrubble</object>
+    <object>objects\obj_youDied</object>
+    <object>objects\oj_squence_death</object>
+    <object>objects\obj_cloud_floor</object>
+    <object>objects\obj_cloud_movingside2side</object>
+    <object>objects\obj_cloud_moveupanddown</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline_test</timeline>
     <timeline>timelines\testing</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_nightmareLevelpart_1</room>
-    <room>rooms\rm_first</room>
-    <room>rooms\rm_airLevelpart_1</room>
-    <room>rooms\rm_temple_air</room>
     <room>rooms\cutscene_1</room>
     <room>rooms\mainmenu</room>
+    <room>rooms\rm_airLevelpart_1</room>
+    <room>rooms\rm_temple_air</room>
+    <room>rooms\rm_nightmareLevelpart_1</room>
+    <room>rooms\rm_first</room>
     <room>rooms\rm_second</room>
     <room>rooms\rm_hub</room>
     <room>rooms\rm_fireLevelpart_1</room>
@@ -125,6 +138,9 @@
     <room>rooms\rm_temple_enterance</room>
     <room>rooms\room13</room>
     <room>rooms\room16</room>
+    <room>rooms\room17</room>
+    <room>rooms\room18</room>
+    <room>rooms\room19</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
